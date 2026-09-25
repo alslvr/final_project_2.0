@@ -22,10 +22,10 @@ This project implements an interactive terminal-based typing tutor directly at t
 
 ## Technical Highlights
 
-- **Architecture:** 32-bit x86 Assembly (`.386`, `flat`, `stdcall`)[cite: 5].
-- **Pointer Arithmetic & Addressing:** Utilizes indexed addressing modes and pointer registers (`ESI`, `EDI`, `ECX`) for manual string traversal, string length calculations, and bounded memory copying[cite: 5].
-- **Stack & Register Allocation:** Implements calling conventions using `push`/`pop` sequences to preserve general-purpose registers (`EAX`, `EBX`, `ECX`, `EDX`) across subroutines[cite: 5].
-- **Memory Safety:** Direct null-termination handling across 1,024-byte allocated buffers to prevent out-of-bounds reads and runtime overflow vulnerabilities[cite: 5].
+- **Architecture:** 32-bit x86 Assembly (`.386`, `flat`, `stdcall`).
+- **Pointer Arithmetic & Addressing:** Utilizes indexed addressing modes and pointer registers (`ESI`, `EDI`, `ECX`) for manual string traversal, string length calculations, and bounded memory copying.
+- **Stack & Register Allocation:** Implements calling conventions using `push`/`pop` sequences to preserve general-purpose registers (`EAX`, `EBX`, `ECX`, `EDX`) across subroutines.
+- **Memory Safety:** Direct null-termination handling across 1,024-byte allocated buffers to prevent out-of-bounds reads and runtime overflow vulnerabilities.
 
 ---
 
